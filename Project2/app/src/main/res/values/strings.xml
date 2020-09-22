@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Project2</string>
+    <string name="first_fragment">Raspored</string>
+    <string name="second_fragment">Chat</string>
+    <string name="thrid_fragment">Wall</string>
+    <string name="fetch_success_message">Data successfully fetched</string>
+    <string name="fetch_fail_message">Fetch failed, showing cached data</string>
+    <string name="app_file_provider" translatable="false">com.example.project2.fileprovider</string>
+
+</resources>

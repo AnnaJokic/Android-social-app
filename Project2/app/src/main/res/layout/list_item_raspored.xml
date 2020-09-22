@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp">
+
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/frag1_predmet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Predmet"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"/>
+
+        <TextView
+                android:id="@+id/frag1_datum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="2/5/19"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentRight="true"
+        />
+
+
+
+        <TextView
+                android:id="@+id/frag1_profesor"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Profesor"
+        />
+
+        <TextView
+                android:id="@+id/frag1_ucionica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="80dp"
+                android:hint="Ucionica"/>
+
+
+        <TextView
+                android:id="@+id/frag1_grupa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:hint="Grupa"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
